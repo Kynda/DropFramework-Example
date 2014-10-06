@@ -1,0 +1,26 @@
+{
+  "name": "drop-framework-example",
+  "version": "1.0.0",
+  "description": "Example usage of the drop framework",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Joseph Hallenbeck"
+  ],
+  "license": "GNU General Public License (GPL)",
+  "homepage": "joehallenbeck.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "web/vendors"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1"
+  }
+}

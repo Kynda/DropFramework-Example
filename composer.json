@@ -1,0 +1,20 @@
+{
+    "name": "JoeHallenbeck/drop-framework-example",
+    "description": "Example usage of the Drop microframework",
+    "license": "GNU General Public License (GPL)",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/var/www2/drop-framework"
+        }
+    ],   
+    "require": {
+        "php": ">=5.3.3",
+        "JoeHallenbeck/drop-framework": "dev-master",
+        "hautelook/phpass": "*"
+    },
+    "autoload": {
+        "psr-0": { "Kynda\\DropFrameworkExample\\": "src/" }
+    }
+}
