@@ -3,3 +3,8 @@
 /.idea
 /vendor
 /composer.lock
+/build
+.DS_Store
+ehthumbs.db
+Thumbs.db
+/web/vendors
