@@ -39,6 +39,6 @@ class PostsManager extends Model
      */
     public function getNews()
     {      
-        return $this->map->getCollection();        
+        return $this->map->getCollection(array('orderby' => '`id` desc'));        
     }
 }
