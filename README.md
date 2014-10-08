@@ -4,6 +4,9 @@ This repository can be used as a starting point for developing an application
 using the [Drop Micro-Framework](https://github.com/Kynda/DropFramework) by [Joe
 Hallenbeck](http://joehallenbeck.com).
 
+An example of this repository in action can be found at
+[dropframework-example.kynda.net](http://dropframework-example.kynda.net)
+
 Namely: This project loads the DropFramework and provides all the necessary
 configuration options in the locations that the framework expects. Furthermore,
 it demonstrates a simple controller interacting with a service model and domain
