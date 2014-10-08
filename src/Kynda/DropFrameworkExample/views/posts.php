@@ -1,9 +1,15 @@
 <?php foreach( $news as $article ): ?>
 
 <article class="row">
-    <h2><?= $article->heading ?></h2>
+
+    <div class="col-xs-12 col-sm-6">
+
+        <h2><?= $article->heading ?></h2>
     
-    <?= $article->content ?>
+        <?= $article->content ?>
+
+    </div>
+
 </article>
 
 <?php endforeach; ?>
