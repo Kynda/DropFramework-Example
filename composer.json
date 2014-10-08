@@ -1,5 +1,5 @@
 {
-    "name": "JoeHallenbeck/drop-framework-example",
+    "name": "kynda/drop-framework-example",
     "description": "Example usage of the Drop microframework",
     "license": "GNU General Public License (GPL)",
     "type": "project",
@@ -11,7 +11,7 @@
     ],   
     "require": {
         "php": ">=5.3.3",
-        "JoeHallenbeck/drop-framework": "dev-development"
+        "kynda/drop-framework": "dev-development"
     },
     "autoload": {
         "psr-0": { "Kynda\\DropFrameworkExample\\": "src/" }
