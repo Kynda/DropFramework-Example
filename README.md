@@ -14,3 +14,11 @@ model to load a series of blog posts from a database and display them as a
 complete HTML document.
 
 For more information see the the link to the main framework repository.
+
+## Installation Instructions
+
+1. Clone this repository into your server, the web root is found in `/web`
+1. Create a new mysql database for this installation and import the provided
+   `database_installer.sql` file.
+1. Rename `src/Kynda/config/config.example.php` to `config.php` and fill in the
+   relevant configuration information.
