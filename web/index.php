@@ -9,17 +9,21 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
  */
 
-require_once '../config.php';
-require_once __DIR__.'/../vendor/autoload.php';
+error_reporting(-1);
 
-use Kynda\DropFramework;
+define('BASEPATH', '/var/www2/drop-framework-example/src/Kynda/' );
+
+require_once '../vendor/autoload.php';
+
+use Kynda\DropFramework\Core\ApplicationRegistry;
+use Kynda\DropFramework\Core\Router;
 
 // Starting Drop Framework
 try {    
     
     // Create an ApplicationRegistry
     $appReg = ApplicationRegistry::instance( 'ApplicationRegistry' )
-                ->initApplication( 'drop-framework-example' );
+                ->initApplication( 'DropFrameworkExample' );
     
     // Start Router
     new Router( $appReg );

@@ -11,8 +11,7 @@
     ],   
     "require": {
         "php": ">=5.3.3",
-        "JoeHallenbeck/drop-framework": "dev-development",
-        "hautelook/phpass": "*"
+        "JoeHallenbeck/drop-framework": "dev-development"
     },
     "autoload": {
         "psr-0": { "Kynda\\DropFrameworkExample\\": "src/" }

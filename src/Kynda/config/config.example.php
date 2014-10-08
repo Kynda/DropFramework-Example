@@ -2,10 +2,8 @@
 /**
  * Config Global Paths
  */
-$config['livesite']    = '';
-$config['basepath']    = '';
-$config['cachepath']   = '';
-$config['thelink']     = '';
+$config['livesite']    = 'drop-framework-example.kynda.net';
+$config['basepath']    = '/var/www/drop-framework-example/';
 
 /**
  * Restrict URI Characters
