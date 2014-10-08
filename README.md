@@ -17,8 +17,11 @@ For more information see the the link to the main framework repository.
 
 ## Installation Instructions
 
+1. Installation requires `composer`, `bower`, `php 5.3+`, `MySQL` and `Apache`.
+1. Set up a new vhost in `Apache` as normal.
 1. Clone this repository into your server, the web root is found in `/web`
 1. Create a new mysql database for this installation and import the provided
    `database_installer.sql` file.
 1. Rename `src/Kynda/config/config.example.php` to `config.php` and fill in the
    relevant configuration information.
+1. Run `composer install` and `bower install`
