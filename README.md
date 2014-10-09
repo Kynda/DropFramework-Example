@@ -24,4 +24,6 @@ For more information see the the link to the main framework repository.
    `database_installer.sql` file.
 1. Rename `src/Kynda/config/config.example.php` to `config.php` and fill in the
    relevant configuration information.
+1. Update the `BASEPATH` in `web/index.php` to the absolute path to the
+   application.
 1. Run `composer install` and `bower install`

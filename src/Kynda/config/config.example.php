@@ -2,8 +2,12 @@
 /**
  * Config Global Paths
  */
-$config['livesite']    = 'drop-framework-example.kynda.net';
-$config['basepath']    = '/var/www/drop-framework-example/';
+$config['livesite']    = 'dropframework-example.kynda.net';
+$config['basepath']    = '/var/www/dropframework-example.kynda.net/';
+$config['namespace'] = 'Kynda\DropFrameworkExample\\';
+$config['controller_trigger']   = 'c';
+$config['method_trigger']       = 'm';
+$config['default_controller']   = 'Blog';
 
 /**
  * Restrict URI Characters
