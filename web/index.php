@@ -11,7 +11,7 @@
 
 error_reporting(-1);
 
-define('BASEPATH', '/var/www2/drop-framework-example/src/Kynda/' );
+define('BASEPATH', '/var/www/dropframework-example.kynda.net/src/Kynda/' );
 
 require_once '../vendor/autoload.php';
 
